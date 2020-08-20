@@ -69,6 +69,10 @@ s
     color: #333;
 }
 
+.btn-contact {
+    text-align: center;
+}
+
 /* Color themes */
 .bg-dark {
     background: #333;
