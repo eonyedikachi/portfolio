@@ -73,6 +73,15 @@ s
     text-align: center;
 }
 
+.btn-text {
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+
+.btn-text:hover {
+    color: white;
+}
+
 /* Color themes */
 .bg-dark {
     background: #333;
