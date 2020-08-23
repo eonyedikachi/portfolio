@@ -115,7 +115,7 @@ s
 background: #333;
 color: #fff;
 overflow: auto; 
-  position: fixed; /* Set the navbar to fixed position */
+  position: auto; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
 }
@@ -163,6 +163,8 @@ overflow: auto;
 #navbar ul li a.current {
     background: #444;
     color: #f7c08a;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 /* showcase */
