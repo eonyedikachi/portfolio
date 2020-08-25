@@ -53,6 +53,16 @@ p {
     border-radius: 5px;
   }
 
+  .btn-small  {
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    border-radius: 5px;
+  }
+
 .btn:hover {
     background: #f7c08a;
     color: #333;
