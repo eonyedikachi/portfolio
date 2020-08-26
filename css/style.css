@@ -274,6 +274,37 @@ overflow: auto;
 
 }
 
+/* Skills style */
+.info {
+    padding: 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+}
+.info-card {
+    background: #fff;
+    color: var(--nav-bg-color);
+    width: 60%;
+    padding: 2.5rem;
+    border-radius: 20px;
+    height: 15rem;
+}
+.info-card ul {
+    list-style-type: square;
+}
+.info-card ul li {
+    padding: 0.2rem;
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.skills p {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* projects */
 #projects {
     height: 600px;
