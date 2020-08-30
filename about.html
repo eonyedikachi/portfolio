@@ -10,23 +10,18 @@
   <body>
     <header>
         <!-- Navigation Bar -->
-        <nav id="navbar">
+        <nav class="navbar">
+            <a href="" class="logo">Onyedikachi</a> 
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a  href="index.html">Home</a></li>
+            <li><a class="current" href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 
-           
-
-            <div class="container">
-                <h1 class="logo"><a href="index.html">Onyedikachi</a></h1>
-            
-                <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a class ="current" href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                </ul>
-                
-            </div>
-            
-        </nav>
     
         </header>
 
@@ -75,6 +70,12 @@
 
 
 <footer id="main-footer">
+    <form name="contact" action="POST" data-netlify="true" style="float: right;">
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Signup for my Newsletter" id="email" aria-required="true">
+        
+    <button type="button" class="btn bg-dark btn-contact">Signup</button>
+</form>
     <p>Onyedikachi &copy; 2020, All Rights Reserved</p>
 </footer>
 

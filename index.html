@@ -12,18 +12,18 @@
     
     <header>
       <!-- Navigation Bar -->
-      <nav id="navbar">
-        <div class="container">
-          <h1 class="logo"><a href="index.html">Onyedikachi</a></h1>
+      <nav class="navbar">
+        <a href="" class="logo">Onyedikachi</a> 
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+        <li><a class="current" href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
 
-          <ul>
-            <li><a class="current" href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
 
       <!-- main section -->
       <div id="showcase">
@@ -195,11 +195,11 @@
     <div class="clr"></div>
 
     <footer id="main-footer">
-      <form name="contact" action="POST" data-netlify="true">
+      <form name="contact" action="POST" data-netlify="true" style="float: right;">
         <label for="email">Email</label>
-        <input type="email" name="email" id="email" aria-required="true">
+        <input type="email" name="email" placeholder="Signup for my Newsletter" id="email" aria-required="true">
         
-    <button type="signup" class="btn bg-dark btn-contact">Submit</button>
+    <button type="button" class="btn bg-dark btn-contact">Signup</button>
 </form>
         <p>Onyedikachi &copy; 2020, All Rights Reserved</p>
       </footer>
