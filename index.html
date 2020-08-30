@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie-edge" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/fontawesome.min.css" integrity="sha512-8jdwayz5n8F2cnW26l9vpV6+yGOcRAqz6HTu+DQ3FtVIAts2gTdlFZOGpYhvBMXkWEgxPN3Y22UWyZXuDowNLA==" crossorigin="anonymous" />
     <title>Onyedikachi - Backend Developer</title>
   </head>
   <body>
+    
     <header>
       <!-- Navigation Bar -->
       <nav id="navbar">
@@ -46,6 +48,12 @@
 
 
     </header>
+
+    <div class="icon-bar">
+      <a href="#" class="twitter"><i class="fas fa-twitter"></i></a> 
+      <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+      <a href="#" class="github"><i class="fa fa-github"></i></a> 
+    </div>
 
     <section>
         <div class="info bg-primary">
@@ -114,12 +122,23 @@
         </div>
 
         <div class="project bg-primary">
+          <img src="img/ruth.jpg" alt="ruth" />
+          <p>
+            <span>Ruth Agbo.</span> Business Admin at Josephine Investment Ltd.
+          </p>
+          <p>
+            Onyedikachi delivers his work in a timely fashion but sometimes
+            fails to listen to customer's advice.
+          </p>
+        </div>
+
+        <div class="project bg-primary">
           <img src="img/kel.jpg" alt="kelechi" />
 
           <p><span>Kelechi Joy.</span> CEO, Kel's Fashion.</p>
           <p>
             Onyedikachi's ability to convert my business needs to a digital
-            solution can be seen in the creation of online I currently use for
+            solution can be seen in the creation of online store I currently use for
             sales of my products.
           </p>
         </div>
@@ -153,16 +172,7 @@
           </p>
         </div>
 
-        <div class="project bg-primary">
-          <img src="img/ruth.jpg" alt="ruth" />
-          <p>
-            <span>Ruth Agbo.</span> Business Admin at Josephine Investment Ltd.
-          </p>
-          <p>
-            Onyedikachi delivers his work in a timely fashion but sometimes
-            fails to listen to customer's advice.
-          </p>
-        </div>
+        
       </div>
     </section>
 
@@ -185,6 +195,12 @@
     <div class="clr"></div>
 
     <footer id="main-footer">
+      <form name="contact" action="POST" data-netlify="true">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" aria-required="true">
+        
+    <button type="signup" class="btn bg-dark btn-contact">Submit</button>
+</form>
         <p>Onyedikachi &copy; 2020, All Rights Reserved</p>
       </footer>
     
