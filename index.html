@@ -1,191 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/fontawesome.min.css" integrity="sha512-8jdwayz5n8F2cnW26l9vpV6+yGOcRAqz6HTu+DQ3FtVIAts2gTdlFZOGpYhvBMXkWEgxPN3Y22UWyZXuDowNLA==" crossorigin="anonymous" />
-    -->
-      <title>Onyedikachi - Backend Developer</title>
-  </head>
-  <body>
-    
-    <header>
-      <!-- Navigation Bar -->
-      <nav class="navbar">
-        <a href="" class="logo">Onyedikachi</a> 
-    <input class="menu-btn" type="checkbox" id="menu-btn" />
-    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-    <ul class="menu">
-        <li><a class="current" href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</nav>
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Onyedikachi | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+     crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+</head>
 
-      <!-- main section -->
-      <div id="showcase">
-        <div class="container">
-          <div class="showcase-content">
-            <h1 class="lead">
-              <span class="text-primary">Backend</span>
-              Developer
-            </h1>
-
-            <p class="lead">
-              Backend Developer with knowledge in Java (SpringBoot), C# and
-              Node.js.
-              <br />
-              Familiar with WordPress, MySQL(MySQL Workbench) and MongoDB. Also
-              a STEM Advocate.
-            </p>
-            <a class="btn bg-dark" href="about.html">About Me</a>
-          </div>
+<body>
+  <!-- nav-bar  -->
+  <section id="nav-bar" class="container">
+    <header class="nav-bar">
+      <div class="brand"><a href="#profile">
+          <h1>Onyedikachi</h1>
+        </a></div>
+      <div class="nav-list">
+        <div class="hamburger">
+          <div class="bar"></div>
         </div>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">projects</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
       </div>
-
-
     </header>
+  </section>
+  <!-- End nav-bar  -->
 
-     <!-- Social media icons -->
-     <div class="icon-bar">
-      <a href="https://twitter.com/IE_Onyedikachi" class="twitter"><i class="fa fa-twitter"></i></a> 
-      <a href="https://github.com/eonyedikachi" class="linkedin"><i class="fa fa-linkedin"></i></a>
-      <a href="https://www.linkedin.com/in/eonyedikachi/" class="github"><i class="fa fa-github"></i></a> 
+  <!-- profile Section  -->
+  <section id="profile" class="profile container">
+    <div class="profile-info">
+      <h1 class="profile-info-heading">I Design <br>With Empathy</h1>
+      <p class="profile-info-subheading">Backend Developer</p>
+      <a href="./assets/Onyedikachi E Ibeabuchi - RESUME.pdf" type="button" class="profile-info-button" download="Onyedikachi - Backend Developer Resume"><i class="fa fa-download"></i> Download Resume</a>
     </div>
+    <div class="profile-img">
+      <img src="./assets/logo1.jpg" alt="">
+    </div>
+  </section>
+  <!-- End profile Section  -->
 
-    <section>
-        <div class="info bg-primary">
-            <div class="info-card skills">
-              <h3>Skills</h3>
-              <li>Java (Spring Boot)</li>
-              <li>HTML/CSS/JavaScript</li>
-              <li>Swagger</li>
-              <li>Git</li>
-            </div>
-    
-            <div class="info-card">
-              <h3>Stats</h3>
-              <ul>
-                <li>2020 Africode Mentee of the Year</li>
-                <li>Google CSFirst Trainer</li>
-                <li>Suacode Africa Training Facilitator</li>
-                <li>Moderator Africode Forum</li>
-              </ul>
-            </div>
-          </div>
-    </section>
+  <!-- About section  -->
+  <section id="about" class="about container">
+    <div class="about-info">
+      <h1 class="about-info-heading">About Me</h1>
+      <p class="about-info-desc">
+        <span class="myname">Onyedikachi Emmanuel Ibeabuchi</span> is a TIIDELab Fellow and STEM Advocate, who is facinated by how enterprise systems can be used to provide/improve
+        financial solutions in rural communities in Africa and educating young people about STEM related fields.
+        <br>
 
-    <div class="clr"></div>
+        <br> I am interested in how technology can be used to improve business processes.
 
-    <section id="home-info" class="bg-dark">
-      <div class="info-img"></div>
-      <div class="info-content">
-        <h2><span class="text-primary">Checkout</span> my article</h2>
-
-        <p>
-          "Create a Pong Game Using an Android Device.
-        </p>
-        <a
-          href="https://medium.com/@eonyedikachi/create-pong-game-using-an-android-phone-b782579ee950"
-          class="btn btn-light"
-          >Read here...</a
-        >
+        <br>
+        <br>Backend Developer with knowledge in Java (SpringBoot).
+Familiar with WordPress, MySQL(MySQL Workbench) and MongoDB, currently learning Node.js.
+      </p>
+      <a href="https://medium.com/@eonyedikachi" type="button" class="about-info-button">Check out my articles</a>
+    </div>
+    <div class="about-img">Introducing Secondary School Teachers in Abuja to Scracth Programming at Google CSFirst.
+      <div class="about-img-wrapper">
+        <img src="./assets/logo.JPG" alt="">
       </div>
-    </section>
+    </div>
+  </section>
+  <!-- End About section  -->
 
-    <div class="clr"></div>
 
-    <section id="projects" class="py-3">
-      <div class="container">
-        <h2 class="l-heading">Testimonials</h2>
-
-        <div class="project bg-primary">
-          <img src="img/godwin.jpg" alt="Godwin" />
-
-          <p><span>Mr. Godwin Chima.</span> CEO, Flamboyant Investment Ltd.</p>
-          <p>
-            Onyedikachi created a website that helped improve sales for my firm.
-          </p>
+  <!-- project Section  -->
+  <section id="projects" class="projects container">
+    <div class="projects-header">
+      <h1 class="projects-header-heading">projects</h1>
+      <p class="projects-header-desc">Here are a few porjects I have worked on.</p>
+    </div>
+    <div class="projects-info">
+      <div class="project">
+        <div class="project-card">
+          <div class="project-front">
+            <h1 class="project-front-heading"></h1>
+          </div>
+          <div class="project-back">
+            <h1 class="project-back-heading">Solamith Nigeria Limited</h1>
+            <p class="project-back-desc">Solamith Nigeria Limited : Designed and maintained company website using WordPress. Link <a href="https://solamith.com/">here</a></p>
+          </div>
         </div>
-
-        <div class="project bg-primary">
-          <img src="img/ruth.jpg" alt="ruth" />
-          <p>
-            <span>Ruth Agbo.</span> Business Admin at Josephine Investment Ltd.
-          </p>
-          <p>
-            Onyedikachi delivers his work in a timely fashion but sometimes
-            fails to listen to customer's advice.
-          </p>
+      </div>
+      <div class="project">
+        <div class="project-card">
+          <div class="project-front">
+            <h1 class="project-front-heading"></h1>
+          </div>
+          <div class="project-back">
+            <h1 class="project-back-heading">Sapphital Learning System</h1>
+            <p class="project-back-desc">Sapphital Enterprise Learning System : Worked with the team in creating database schema and testing of API endpoint for an enterprise system. Link <a href="https://sapphital.com/">here</a>.
+          </div>
         </div>
+      </div>
+      <div class="project">
+        <div class="project-card">
+          <div class="project-front">
+            <h1 class="project-front-heading"></h1>
+          </div>
+          <div class="project-back">
+            <h1 class="project-back-heading">Flamboyant Interior Limited</h1>
+            <p class="project-back-desc">Pet Project: Website for Interior Decor Firm using HTML, W3CSS and JavaScript. Link <a href="http://flamboyantinterior.atwebpages.com/">here</a>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End project Section  -->
 
-        <div class="project bg-primary">
-          <img src="img/kel.jpg" alt="kelechi" />
 
-          <p><span>Kelechi Joy.</span> CEO, Kel's Fashion.</p>
+    
+    <!-- Testimonials Grid -->
+
+    <!-- <section class="testimonial">
+      <h1 class="testimonial-header-heading">Testimonials</h1>
+
+    <div class="row">
+      <div class="column">
+        <div class="content testimonial">
+          <img src="/assets/kel.jpg" alt="Kel" style="width:100%">
+          <h3><span>Kelechi Joy.</span> CEO, Kel's Fashion.</h3> <p><span>Kelechi Joy.</span> CEO, Kel's Fashion.</p>
           <p>
             Onyedikachi's ability to convert my business needs to a digital
             solution can be seen in the creation of online store I currently use for
             sales of my products.
-          </p>
-        </div>
-
-
-        <div class="project bg-primary">
-          <img src="img/ann.jpg" alt="hannah" />
-
-          <p><span>Hanny Care.</span> Geriatric Nurse.</p>
-          <p>
-            I admire Onyedikachi's empathy when dealing with clients. It is a
-            core value that he holds dear.
-          </p>
-        </div>
-
-        <div class="project bg-primary">
-          <img src="img/john.jpg" alt="john" />
-          <p><span>John Peter.</span> Marketer at Solamith Nigeria Limited.</p>
-          <p>
-            Onyedikachi is a dedicated individual who enjoy giving back to the
-            community through volunteering.
-          </p>
-        </div>
-
-        
+          </p> </div>
       </div>
-    </section>
+   
+      <div class="column">
+        <div class="content testimonial">
+          <img src="assets/godwin.jpg" alt="Godwin" style="width:100%">
+          <h3><span>Mr. Godwin Chima.</span> CEO, Flamboyant Investment Ltd.</h3>
+        
+          <p>
+            Onyedikachi created a website that helped improve sales for my firm.
+          </p> </div>
+      </div>
+         <div class="column">
+        <div class="content testimonial">
+        <img src="/assets/ruth.jpg" alt="Ruth" style="width:100%">
+          <h3><span>Ruth Agbo.</span> Business Admin at Josephine Investment Ltd.</h3>
+          <p>
+            Onyedikachi delivers his work in a timely fashion but sometimes
+            fails to listen to customer's advice.
+          </p> </div>
+      </div>
 
-    <div class="clr"></div>
-
-    <!-- Project wall -->
-    <section id="home-brief" class="bg-light">
-      <div class="info-content">
-        <h2><span class="text-primary">Checkout</span> my projects</h2>
-
+      <div class="column">
+        <div class="content testimonial">
+        <img src="/assets/ann.jpg" alt="Ann" style="width:100%">
+        <h3><span>Hanny Care.</span> Geriatric Nurse.</h3>
         <p>
-          A list of some of the projects I have worked on.
+          I admire Onyedikachi's empathy when dealing with clients. It is a
+          core value that he holds dear.
         </p>
-        <a href="projects.html" class="btn btn-dark bg-dark"
-          >View Projects...</a
-        >
       </div>
-    </section>
 
-    <div class="clr"></div>
+    </div>
 
-    <footer id="main-footer">
-      <form name="contact" action="POST" data-netlify="true" style="float: right;">
+  </section> -->
+
+     <!-- END OF TESTIMONIAL GRID -->
+
+
+
+  <!-- contact Section  -->
+
+  <!-- Contact form section -->
+  <section id="contact" class="contact container">
+    <h1 class="contact-heading">Contact Me</h1>
+    <p class= "contact-heading-desc style=" font-size: 11px;padding:5px;">Please fill out the form below to contact me</p>
+
+    <div class="container-contact">
+      <form name="contact" s action="POST" data-netlify="true">
+
+        <label for="fullName">First Name</label>
+        <input type="text" id="nfullName" name="fullName" placeholder="Your name..">
+
         <label for="email">Email</label>
-        <input type="email" name="email" placeholder="Signup for my Newsletter" id="email" aria-required="true">
-        
-    <button type="button" class="btn btn-small bg-light btn-contact">Signup</button>
-</form>
-        <p>Onyedikachi &copy; 2020, All Rights Reserved</p>
-      </footer>
+        <input type="email" name="email" id="email" placeholder="Your email..">
+
+        <label for="phoneNo">Phone No.</label>
+        <input type="number" name="phoneNo" id="phoneNo" placeholder="Your phone No. ...">
+
+        <label for="location">Location</label>
+        <input type="text" name="location" id="location" placeholder="Your location...">
+
+        <label for="subject">Message</label>
+        <textarea id="subject" name="subject" placeholder="Your message.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit" class="contact-button">
+      </form>
+    </div>
+  </section>
+  <!-- End contact Section  -->
+
+  <!-- End of Contact form section -->
+
+  <!-- Footer section  -->
+  <footer id="footer" class="footer container">
+    <div class="footer-contact">
+      <h1 class="footer-contact-heading">Signup for my Newsletter</h1>
+      <!-- <p class="footer-contact-info">Email: yourname@gamil.com</p>
+      <p class="footer-contact-info">Mobile: 234 234 2342</p> -->
+
+        <div class="footer-form">
+          <form name="contact" action="POST" data-netlify="true">
     
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Your email..." id="email" aria-required="true" class="sEmail">
+          
+            <button type="button" class="btn-signup" >Signup</button>
+    
+          </form>
+
+        </div>
+    </div>
+
+    <div class="footer-social-follow">
+      <h1 class="footer-social-follow-heading">Follow Me</h1>
+      <div class="footer-social-icon">
+        <a href="https://twitter.com/IE_Onyedikachi"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/eonyedikachi"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/eonyedikachi"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+    <p class="text-primary">Onyedikachi &copy; 2020, All Rights Reserved</p>
+  </footer>
+  <!-- End Footer section  -->
+  <script src="./app.js"></script>
 </body>
+
 </html>
