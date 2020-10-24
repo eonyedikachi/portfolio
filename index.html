@@ -23,8 +23,8 @@
         </div>
         <ul>
           <li><a href="#about">About</a></li>
-          <li><a href="#projects">projects</a></li>
-          <li><a href="#contact">contact</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </header>
@@ -36,10 +36,10 @@
     <div class="profile-info">
       <h1 class="profile-info-heading">I Design <br>With Empathy</h1>
       <p class="profile-info-subheading">Backend Developer</p>
-      <a href="./assets/Onyedikachi E Ibeabuchi - RESUME.pdf" type="button" class="profile-info-button" download="Onyedikachi - Backend Developer Resume"><i class="fa fa-download"></i> Download Resume</a>
+      <a href="./assets/Onyedikachi E Ibeabuchi - RESUME.pdf" type="button" class="profile-info-button"><i class="fa fa-download"></i> Download Resume</a>
     </div>
     <div class="profile-img">
-      <img src="./assets/logo1.jpg" alt="">
+      <img src="./assets/logo1.jpg" alt="Onyedikachi head shot">
     </div>
   </section>
   <!-- End profile Section  -->
@@ -49,7 +49,7 @@
     <div class="about-info">
       <h1 class="about-info-heading">About</h1>
       <p class="about-info-desc">
-        <span class="myname">Onyedikachi Emmanuel Ibeabuchi</span> is a TIIDELab Fellow and STEM Advocate, who is facinated by how enterprise systems can be used to provide/improve
+        <span class="myname">Onyedikachi Emmanuel Ibeabuchi</span> is a TIIDELab Fellow and STEM Advocate, who is fascinated by how enterprise systems can be used to provide/improve
         financial solutions in rural communities in Africa and educating young people about STEM related fields.
         <br>
 
@@ -61,7 +61,7 @@ Familiar with WordPress, MySQL(MySQL Workbench) and MongoDB, currently learning 
       </p>
       <a href="https://medium.com/@eonyedikachi" type="button" class="about-info-button">Check out my articles</a>
     </div>
-    <div class="about-img">Introducing Secondary School Teachers in Abuja to Scracth Programming at Google CSFirst.
+    <div class="about-img">Introducing Secondary School Teachers in Abuja to Scratch Programming at Google CSFirst.
       <div class="about-img-wrapper">
         <img src="./assets/logo.JPG" alt="">
       </div>
@@ -74,7 +74,7 @@ Familiar with WordPress, MySQL(MySQL Workbench) and MongoDB, currently learning 
   <section id="projects" class="projects container">
     <div class="projects-header">
       <h1 class="projects-header-heading">projects</h1>
-      <p class="projects-header-desc">Here are a few porjects I have worked on.</p>
+      <p class="projects-header-desc">Here are a few projects I have worked on.</p>
     </div>
     <div class="projects-info">
       <div class="project">
@@ -180,11 +180,11 @@ Familiar with WordPress, MySQL(MySQL Workbench) and MongoDB, currently learning 
     <div class="container-contact">
       <form name="contact" s action="POST" data-netlify="true">
 
-        <label for="fullName">Full Name</label>
-        <input type="text" id="nfullName" name="fullName" placeholder="Your name..">
+        <label for="fullName">Name</label>
+        <input type="text" id="fullName" name="fullName" placeholder="Your name.." required>
 
         <label for="email">Email</label>
-        <input type="email" name="email" id="email" placeholder="Your email..">
+        <input type="email" name="email" id="email" placeholder="Your email.." required>
 
         <label for="phoneNo">Phone No.</label>
         <input type="number" name="phoneNo" id="phoneNo" placeholder="Your phone No. ...">
@@ -193,7 +193,7 @@ Familiar with WordPress, MySQL(MySQL Workbench) and MongoDB, currently learning 
         <input type="text" name="location" id="location" placeholder="Your location...">
 
         <label for="subject">Message</label>
-        <textarea id="subject" name="subject" placeholder="Your message.." style="height:200px"></textarea>
+        <textarea id="subject" name="subject" placeholder="Your message.." style="height:200px" required></textarea>
 
         <div class="contact-btn"> <input type="submit" value="Submit" class="contact-button"></div>
        
@@ -207,7 +207,7 @@ Familiar with WordPress, MySQL(MySQL Workbench) and MongoDB, currently learning 
   <!-- Footer section  -->
   <footer id="footer" class="footer container">
     <div class="footer-contact">
-      <h1 class="footer-contact-heading">Signup for my Newsletter</h1>
+      <h1 class="footer-contact-heading">Sign up for my Newsletter</h1>
       <!-- <p class="footer-contact-info">Email: yourname@gamil.com</p>
       <p class="footer-contact-info">Mobile: 234 234 2342</p> -->
 
@@ -215,9 +215,9 @@ Familiar with WordPress, MySQL(MySQL Workbench) and MongoDB, currently learning 
           <form name="contact" action="POST" data-netlify="true">
     
             <label for="email">Email</label>
-            <input type="email" name="email" placeholder="Your email..." id="email" aria-required="true" class="sEmail">
+            <input type="email" name="email" placeholder="Your email..." id="email" class="sEmail" required>
           
-            <button type="button" class="btn-signup">Signup</button>
+            <button type="button" class="btn-signup">Sign Up</button>
     
           </form>
 
