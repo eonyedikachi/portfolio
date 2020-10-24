@@ -6,10 +6,11 @@
 }
 
 html {
-	font-size: 10px;
+	font-size: 11px;
 	font-family: 'Montserrat', sans-serif;
 	scroll-behavior: smooth;
 }
+
 .container {
 	width: 100%;
 	height: auto;
@@ -29,7 +30,7 @@ html {
 	background-color: black;
 	left: 0;
 	top: 0;
-	padding: 1rem 2rem;
+	padding: 1rem 0.4rem;
 	width: 100%;
 	display: flex;
 	align-items: center;
@@ -51,8 +52,8 @@ html {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 70px;
-	width: 70px;
+	height: 60px;
+	width: 60px;
 	transition: .3s ease transform;
 	cursor: pointer;
 }
@@ -72,7 +73,7 @@ html {
 }
 .nav-bar .nav-list .hamburger .bar {
 	
-	height: 2px;
+	height: 3px;
 	width: 30px;
 	background-color: white;
 	position: relative;
@@ -321,8 +322,13 @@ html {
 	background-color: rgba(0, 0, 0, 0.13);
 	padding: 10px;
 }
+.projects .projects-info .project .project-card .project-back a {
+color: #eccc16;
+}
 .projects .projects-info .project .project-card .project-back {
 	transform: rotateY(180deg);
+	color: #fff;
+	background-color: #252525;
 }
 .projects .projects-info .project .project-card .project-front i {
 	font-size: 4rem;
@@ -333,6 +339,7 @@ html {
 .projects .projects-info .project .project-card .project-back .project-back-heading {
 	font-size: 2.5rem;
 	text-transform: capitalize;
+	text-align: center;
 }
 .projects .projects-info .project:hover .project-card {
 	transform: rotateY(180deg);
